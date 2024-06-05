@@ -1,6 +1,7 @@
 import logo from './logo.svg';
-import indexPageScrollingIos from './res/index-page-scrolling-ios.gif';
+import indexPageScrollingIos from './res/gifs/index-page-scrolling-ios.gif';
 import indexPageAndroid from './res/index-page-android.png'
+import indexScreenScrollingAndroid from './res/gifs/index-screen-scrolling-android.gif'
 import './App.css';
 import {
   indexScreenLoggedDrawerDialogOpenedIos,
@@ -125,7 +126,7 @@ function App() {
             </tr>
           </table> 
         </div>
-        <img src={ indexPageAndroid } alt="app index android screenshot" width="232.05" height="490.8" />
+        <img src={ indexScreenScrollingAndroid } alt="app index android screenshot" width="232.05" height="490.8" />
       </div>
       <div class='title'>
         <h1>Screen Screenshots</h1>
